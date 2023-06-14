@@ -337,4 +337,102 @@ header nav a:hover {
     padding: 10px;
     font-size: 13px;
   }
+}
+
+#team {
+  background-color: #f9f9fa;
+  padding-bottom: 50px;
+}
+#team h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+#team h3 {
+  font-size: 20px;
+  color: #6c757d;
+  margin: 20px 0 65px;
+}
+#team .box {
+  display: flex;
+  justify-content: center;
+}
+#team .box .imgbox {
+  border: 8px solid #e1e1e1;
+  border-radius: 50%;
+  width: 225px;
+  height: 225px;
+}
+#team .textbox {
+  text-align: center;
+}
+#team .textbox h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 20px;
+}
+#team .textbox h4 {
+  font-size: 18px;
+  color: #6c757d;
+  margin: 10px 0;
+}
+#team ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+#team ul li {
+  margin: 10px;
+  background-color: #212529;
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#team ul li:hover {
+  border: 3px solid #888f96;
+  cursor: pointer;
+}
+#team .wid {
+  width: 710px;
+  line-height: 1.4;
+  margin-top: 15px;
+}
+@media screen and (max-width: 768px) {
+  #team ul {
+    margin-bottom: 40px;
+  }
+  #team .wid {
+    margin-top: 0;
+  }
+}
+
+#brend {
+  padding: 60px 0;
+}
+#brend .box .imgbox {
+  width: 110px;
+}
+#brend .box .imgbox img {
+  cursor: pointer;
+}
+#brend .box .mic {
+  width: 210px;
+}
+#brend .box .fac {
+  width: 170px;
+}
+#brend .box .ibm {
+  width: 110px;
+}
+@media screen and (max-width: 770px) {
+  #brend {
+    padding: 50px 0;
+  }
+  #brend .box .imgbox {
+    margin: 17px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
